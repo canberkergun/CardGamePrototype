@@ -123,6 +123,7 @@ namespace _CardGame.UI.Scripts
 
             CardManager.Instance.PlaceCardInPlayArea(gameObject, true);
             
+            lockObject.SetActive(true);
             cardController.PlaceCard();
             isDroppedOnPlayArea = true;
         }
