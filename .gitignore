@@ -1,0 +1,30 @@
+# =============== #
+# Unity .gitignore #
+# =============== #
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Unity auto-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]serSettings/
+Packages/com.unity.package-manager-do...
+
+# Ignore build folders
+[Bb]uild/
+[Bb]uilds/
+[Aa]ssets/StreamingAssets/
+
+# Ignore IDE-specific files
+.vs/
+.vscode/
+*.sln
+*.csproj
+*.user
+*.pidb
+*.booproj
+*.unityproj
